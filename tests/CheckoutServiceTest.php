@@ -6,11 +6,11 @@ namespace Tests;
 
 use App\InMemoryProducts;
 use App\Services\Cart\CartService;
+use App\Services\Cart\Resources\CartItemResource;
 use App\Services\Checkout\CheckoutService;
-use App\Services\Checkout\Resources\CartItemResource;
 use App\Services\Coupons\Resolvers\CouponResolver;
-use PHPUnit\Framework\TestCase;
 use App\Utilities\ArrayHelper;
+use PHPUnit\Framework\TestCase;
 
 /**
  *  For demo, only applied a high level test though ideally we want to test each service.

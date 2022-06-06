@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services\Coupons\Interfaces;
 
-use App\Services\Checkout\Resources\CartItemResource;
+use App\Services\Cart\Resources\CartItemResource;
 
 interface CouponResolverInterface
 {

@@ -6,7 +6,6 @@ namespace App\Services\Checkout;
 
 use App\Services\Cart\CartService;
 use App\Services\Checkout\Interfaces\CheckoutServiceInterface;
-use App\Services\Checkout\Resources\CartItemResource;
 use App\Services\Coupons\Resolvers\CouponResolver;
 
 final class CheckoutService implements CheckoutServiceInterface
@@ -25,7 +24,7 @@ final class CheckoutService implements CheckoutServiceInterface
         $cartItems = $this->cartService->getItems();
         $total = 0;
 
-        /** @var \App\Services\Checkout\Resources\CartItemResource $cartItem */
+        /** @var \App\Services\Cart\Resources\CartItemResource $cartItem */
         foreach ($cartItems as $cartItem) {
             $cartItem = $this->couponResolver->make($cartItem);
 
@@ -36,7 +35,7 @@ final class CheckoutService implements CheckoutServiceInterface
     }
 
     /**
-     * @return \App\Services\Checkout\Resources\CartItemResource[]
+     * @return \App\Services\Cart\Resources\CartItemResource[]
      */
     public function getItems(): array
     {

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services\Coupons\Resolvers;
 
-use App\Services\Checkout\Resources\CartItemResource;
+use App\Services\Cart\Resources\CartItemResource;
 use App\Services\Coupons\FirstItemCoupon;
 use App\Services\Coupons\Interfaces\CouponResolverInterface;
 use App\Services\Coupons\SecondItemCoupon;

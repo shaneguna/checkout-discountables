@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services\Coupons;
 
-use App\Services\Checkout\Resources\CartItemResource;
+use App\Services\Cart\Resources\CartItemResource;
 use App\Services\Coupons\Interfaces\CouponInterface;
 
 final class FirstItemCoupon implements CouponInterface

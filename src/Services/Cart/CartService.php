@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Services\Cart;
 
-use App\Services\Checkout\Resources\CartItemResource;
+use App\Services\Cart\Resources\CartItemResource;
 use Brick\Math\Internal\Calculator\BcMathCalculator;
 
 final class CartService

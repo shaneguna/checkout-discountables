@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Services\Checkout\Resources;
+namespace App\Services\Cart\Resources;
 
 final class CartItemResource
 {
