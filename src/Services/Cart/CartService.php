@@ -20,9 +20,9 @@ final class CartService
                 (string) $existingItem->getQuantity(),
                 (string) $cartItemResource->getQuantity()
             );
-            var_dump($updatedQuantity);
-            die();
+
             $existingItem->setQuantity($updatedQuantity);
+
             $cartItemResource = $existingItem;
         }
 
