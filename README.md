@@ -51,12 +51,11 @@ Composer test is setup with `--testdox` option to give more readable test output
 > phpunit tests --testdox
 
 Checkout Service (Tests\CheckoutService)
- ✔ Success AddSomething with data set "Satisfied Coupon Should Apply on Discounted Products - Case 1"
- ✔ Success AddSomething with data set "Applied Coupons Should Apply Discounted Price - Case 2"
- ✔ Success AddSomething with data set "No Discount Coupons Should Apply Regular Price"
- ✔ Success AddSomething with data set "Attempt Apply Discount on Unsatisfied Coupon Terms Should Fail"
- ✔ Success AddSomething with data set "Satisfied Coupon Terms Should Apply Only Once"
-
+ ✔ Success GetCheckoutTotal with data set "Satisfied Coupon Should Apply on Discounted Products - Case 1"
+ ✔ Success GetCheckoutTotal with data set "Applied Coupons Should Apply Discounted Price - Case 2"
+ ✔ Success GetCheckoutTotal with data set "No Discount Coupons Should Apply Regular Price"
+ ✔ Success GetCheckoutTotal with data set "Attempt Apply Discount on Unsatisfied Coupon Terms Should Fail"
+ ✔ Success GetCheckoutTotal with data set "Satisfied Coupon Terms Should Apply Only Once"
 
 Time: 00:00.015, Memory: 6.00 MB
 

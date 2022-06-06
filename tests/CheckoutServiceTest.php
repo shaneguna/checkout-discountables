@@ -126,7 +126,7 @@ class CheckoutServiceTest extends TestCase
     /**
      * @dataProvider getRequestValidationFailsTestDataProvider
      */
-    public function testSuccess_AddSomething(array $products, string $expectedTotal): void
+    public function testSuccess_GetCheckoutTotal(array $products, string $expectedTotal): void
     {
         foreach ($products as $product) {
             $productDetails = ArrayHelper::get($product, 'details');
