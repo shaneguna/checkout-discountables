@@ -1,5 +1,5 @@
-# The Nile Group Coding Challenge
-The Nile wants to offer a wide variety of discounts to our customers.
+
+The Provider wants to offer a wide variety of discounts to our customers.
 
 Your task is to develop a system to allow for discounts to be applied
 to a customers cart. The system should be as flexible as possible, allowing
